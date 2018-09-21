@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[VEHICLE_QUOTE]
+(
+	[Id] INT IDENTITY(1,1) PRIMARY KEY, 
+    [FirstName] VARCHAR(50) NULL, 
+    [LastName] VARCHAR(50) NULL, 
+    [Year] VARCHAR(4) NULL, 
+    [Make] VARCHAR(20) NULL, 
+    [Model] VARCHAR(20) NULL
+)
